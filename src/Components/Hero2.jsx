@@ -7,7 +7,7 @@ const Hero2 = () => {
     <div>
         <main className=' h-[100vh] flex flex-col md:flex-row'>
             <div className={` w-screen md:w-1/2  flex justify-center  bg-orange-500 h-full items-center`}>
-                <img src="https://img.freepik.com/free-photo/close-up-portrait-caucasian-unshaved-man-eyeglasses-looking-camera-with-sincere-smile-isolated-gray_171337-630.jpg" alt="Portfolio" className=' w-[200px] h-[200px] md:w-[300px] md:h-[300px] object-cover rounded-full bg-white p-[3px]' />
+                <img src={data.profileImageLink} alt="Portfolio" className=' w-[200px] h-[200px] md:w-[300px] md:h-[300px] object-cover rounded-full bg-white p-[3px]' />
             </div>
 
             <div className=' w-screen md:w-1/2  h-full justify-center items-center flex'>
