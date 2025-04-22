@@ -5,7 +5,7 @@ const Projects = () => {
   return (
     <div>
       <h2 className=' font-bold text-4xl flex justify-center mt-10 h-max text-orange-500'>Projects</h2>
-      <div className=' m-3 flex flex-wrap gap-5 justify-center mt-10'>
+      <div className=' m-3 flex flex-wrap gap-10 justify-center mt-10'>
         {
           data.projects.map(project => (
             <section>

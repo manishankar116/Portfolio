@@ -22,7 +22,7 @@ const Experience = () => {
                   </span>
                   <h3 class="flex items-center mb-1 text-lg font-semibold text-gray-900 ">{experience.companyName}<span class="bg-orange-100 text-orange-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded-sm  ms-3">{experience.role}</span></h3>
                   <time class="block mb-2 text-sm font-normal leading-none text-gray-400 ">Started on {experience.joinedOn.month} {experience.joinedOn.date}, {experience.joinedOn.year}</time>
-                  <p class="mb-4 w-screen text-base font-normal text-gray-500 md:w-[500px]">{experience.jobDescription}</p>
+                  <p class="mb-4 w-[400px] justify-center mr-7 md:mx-0 text-base font-normal text-gray-500 md:w-[500px]">{experience.jobDescription}</p>
                 </li>
               ))
             }              
