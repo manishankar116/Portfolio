@@ -1,3 +1,11 @@
+To Modify data in the portfolio. You have to open data.js file in source folder. You can modify the details accroding to your details. 
+
+
+
+
+
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
